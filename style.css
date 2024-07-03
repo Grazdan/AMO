@@ -6,6 +6,13 @@ body {
     background: linear-gradient(166deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);
 }
 
-.orange {
-    background: orange;
+.elements {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+.splash {
+    flex: 1;
+    transform: scaleX(-1);
 }
