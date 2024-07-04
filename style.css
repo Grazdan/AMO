@@ -1,9 +1,50 @@
 body {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     padding: 0;
     margin: 0;
     background: linear-gradient(166deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(0,212,255,1) 100%);
+}
+
+.head {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(2,0,36,1);
+}
+
+.head > .text {
+    color: white;
+    font-size: 2em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+}
+
+.phones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 24px;
+}
+
+.phoneNum {
+    text-decoration: none;
+    color: white;
+}
+
+.phoneNum:hover {
+    text-decoration: underline;
+}
+
+.phone {
+    font-size: 1.5em;
+    display: flex;
+    color: white;
+    gap: 24px;
+    justify-content: space-between;
 }
 
 .elements {
